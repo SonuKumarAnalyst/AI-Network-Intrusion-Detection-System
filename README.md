@@ -1,4 +1,4 @@
-# 🚨 AI Network Intrusion Detection System
+# 🚨 AI Network Intrusion Detection System (AI-NIDS)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
@@ -6,20 +6,22 @@
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-An AI-powered Network Intrusion Detection System (NIDS) that uses Machine Learning (Random Forest) to detect malicious network traffic from the CIC-IDS2017 dataset.
+An **AI-powered Network Intrusion Detection System (NIDS)** developed using **Machine Learning (Random Forest Algorithm)** to detect **malicious network traffic** from real-world datasets.  
+The system is built using the **CIC-IDS2017 benchmark dataset** and provides an interactive **Streamlit-based dashboard** for analysis and prediction.
 
 ---
 
-## 📸 Project Screenshots
+## 📌 Project Overview
 
-Dashboard Overview  
-![Dashboard](images/dashboard.png)
+With the rapid growth of network-based applications, cyberattacks such as **DDoS, Port Scans, and Infiltration attacks** have become more frequent.  
+This project aims to identify such intrusions by learning traffic patterns from labeled network flow data and classifying them as **Benign** or **Malicious**.
 
-Model Performance & Confusion Matrix  
-![Metrics](images/metrics.png)
-
-Live Traffic Simulator  
-![Simulator](images/simulator.png)
+The system follows a complete machine learning pipeline:
+- Data loading from real network traffic logs  
+- Data preprocessing and feature selection  
+- Model training using Random Forest  
+- Model evaluation using accuracy and confusion matrix  
+- Live traffic prediction through a user interface  
 
 ---
 
@@ -27,37 +29,38 @@ Live Traffic Simulator
 
 ![Architecture](images/architecture.png)
 
-The system works as follows:
-1. Load real network traffic data from CIC-IDS2017  
-2. Preprocess and select relevant features  
-3. Train a Random Forest classifier  
-4. Evaluate the model using accuracy and confusion matrix  
-5. Predict live traffic as Benign or Malicious  
+1. **CIC-IDS2017 Dataset** (Raw CSV files)  
+2. **Data Preprocessing** (Cleaning, normalization, feature selection)  
+3. **Machine Learning Model** (Random Forest Classifier)  
+4. **Model Evaluation** (Accuracy, Confusion Matrix)  
+5. **Live Traffic Simulation & Prediction**  
+6. **Streamlit Dashboard** for visualization and interaction  
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-- Real-world CIC-IDS2017 dataset integration  
-- Machine Learning–based intrusion detection  
-- Interactive Streamlit dashboard  
-- Accuracy and confusion matrix visualization  
-- Live traffic simulation  
-- Supports multiple CIC datasets  
+- Real-world **CIC-IDS2017 dataset integration**
+- Machine Learning–based intrusion detection
+- Random Forest classifier for robust prediction
+- Interactive Streamlit dashboard
+- Accuracy and confusion matrix visualization
+- Live traffic simulator for testing
+- Support for multiple CIC dataset CSV files
 
 ---
 
 ## 🧰 Tech Stack
 
-Language: Python  
-Machine Learning Model: Random Forest  
-Frontend: Streamlit  
-Libraries: Pandas, NumPy, Scikit-learn  
-Visualization: Matplotlib, Seaborn  
+- **Programming Language:** Python  
+- **Machine Learning:** Random Forest (Scikit-learn)  
+- **Web Framework:** Streamlit  
+- **Data Handling:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
 
 ---
 
-## 📂 Dataset
+## 📂 Dataset Information
 
 - **Dataset Name:** CIC-IDS2017  
 - **Provided By:** Canadian Institute for Cybersecurity (CIC), University of New Brunswick  
@@ -65,56 +68,69 @@ Visualization: Matplotlib, Seaborn
   https://www.unb.ca/cic/datasets/ids-2017.html  
 
 **Note:**  
-The dataset files are not included in this repository due to their large size.  
-Please download the required CSV files from the official source and place them in the project root directory before running the application.
-
+Due to the large size of the dataset files, CSV files are not included in this repository.  
+Please download the dataset from the official source and place the required CSV files in the project root directory before running the application.
 
 ---
 
 ## ▶️ How to Run the Project
 
 1. Clone the repository  
-   git clone https://github.com/SonuKumarAnalyst/AI-Network-Intrusion-Detection-System.git
+   git clone https://github.com/SonuKumarAnalyst/AI-Network-Intrusion-Detection-System.git  
 
-2. Go to the project directory  
-   cd AI-Network-Intrusion-Detection-System
+2. Navigate to the project directory  
+   cd AI-Network-Intrusion-Detection-System  
 
 3. Install dependencies  
-   pip install -r requirements.txt
+   pip install -r requirements.txt  
 
-4. Run the application  
-   streamlit run nids_main.py
+4. Run the Streamlit application  
+   streamlit run nids_main.py  
 
 ---
 
 ## 📁 Project Structure
-
-AI-Network-Intrusion-Detection-System  
-│── nids_main.py  
-│── requirements.txt  
-│── README.md  
-│── .gitignore  
-│── images  
-│   ├── dashboard.png  
-│   ├── metrics.png  
-│   ├── simulator.png  
-│   └── architecture.png  
+    '''bash
+    AI-Network-Intrusion-Detection-System  
+    │── Simulation  
+    │   ├── nids_main.py
+    │── Production
+    │   │── nids_main.py
+    │── requirements.txt  
+    │── README.md  
+    │── .gitignore  
+    │── images  
+    │   ├── dashboard.png  
+    │   ├── metrics.png  
+    │   ├── simulator.png  
+    │   └── architecture.png  
 
 ---
 
-## 🎓 Academic Use
+## 🎓 Academic & Practical Use
 
 This project is suitable for:
 - BCA / MCA final year projects  
 - Internship submissions  
 - Machine Learning demonstrations  
 - Cybersecurity coursework  
+- Resume and portfolio projects  
+
+---
+
+## 🚀 Future Enhancements you can Try
+
+- Feature importance visualization  
+- Attack type classification (DDoS, Port Scan, etc.)  
+- Deep Learning–based intrusion detection  
+- Cloud deployment (Streamlit Cloud / AWS)  
+- User authentication and role management  
 
 ---
 
 ## 👤 Author
 
-Sonu Kumar  
+**Sonu Kumar**  
 Aspiring Data Analyst & Machine Learning Enthusiast  
 
 GitHub: https://github.com/SonuKumarAnalyst  
@@ -123,4 +139,4 @@ GitHub: https://github.com/SonuKumarAnalyst
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
