@@ -21,7 +21,20 @@ The system follows a complete machine learning pipeline:
 - Data preprocessing and feature selection  
 - Model training using Random Forest  
 - Model evaluation using accuracy and confusion matrix  
-- Live traffic prediction through a user interface  
+- Live traffic prediction through a user interface
+
+---
+
+## 📸 Project Screenshots
+
+Dashboard Overview  
+![Dashboard](images/dashboard.png)
+
+Model Performance & Confusion Matrix  
+![Metrics](images/metrics.png)
+
+Live Traffic Simulator  
+![Simulator](images/simulator.png)
 
 ---
 
