@@ -52,11 +52,13 @@ The system follows a complete machine learning pipeline:
 
 ## 🧰 Tech Stack
 
-- **Programming Language:** Python  
-- **Machine Learning:** Random Forest (Scikit-learn)  
-- **Web Framework:** Streamlit  
-- **Data Handling:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn  
+| Category | Technologies |
+|--------|--------------|
+| Programming Language | Python |
+| Machineattach Learning | Random Forest (Scikit-learn) |
+| Web Framework | Streamlit |
+| Data Handling | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn |  
 
 ---
 
@@ -75,23 +77,27 @@ Please download the dataset from the official source and place the required CSV 
 
 ## ▶️ How to Run the Project
 
-1. Clone the repository  
+1. Clone the repository
+   ```bash
    git clone https://github.com/SonuKumarAnalyst/AI-Network-Intrusion-Detection-System.git  
 
-2. Navigate to the project directory  
+3. Navigate to the project directory
+   ```bash
    cd AI-Network-Intrusion-Detection-System  
 
-3. Install dependencies  
+5. Install dependencies
+   ```bash
    pip install -r requirements.txt  
 
-4. Run the Streamlit application  
+7. Run the Streamlit application
+   ```bash
    streamlit run nids_main.py  
 
 ---
 
 ## 📁 Project Structure
-AI-Network-Intrusion-Detection-System  
 
+    AI-Network-Intrusion-Detection-System  
     │── Simulation  
     │   ├── nids_main.py
     │── Production
