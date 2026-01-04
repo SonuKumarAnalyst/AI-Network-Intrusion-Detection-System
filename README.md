@@ -90,8 +90,8 @@ Please download the dataset from the official source and place the required CSV 
 ---
 
 ## 📁 Project Structure
-    '''bash
-    AI-Network-Intrusion-Detection-System  
+AI-Network-Intrusion-Detection-System  
+
     │── Simulation  
     │   ├── nids_main.py
     │── Production
